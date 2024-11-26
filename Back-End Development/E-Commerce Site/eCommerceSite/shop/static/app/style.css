@@ -1,0 +1,16 @@
+.card-text {
+    color: rgb(23, 128, 23);
+    font-weight: 800;
+}
+
+.card-title {
+    font-weight:900;
+}
+
+.card-img-top {
+    height: 200px; /* Set your desired height */
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
